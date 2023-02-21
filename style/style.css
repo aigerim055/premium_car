@@ -185,6 +185,7 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    /* width: 100%; */
     height: 445px;
     width: 770px;
 }
@@ -287,9 +288,7 @@ button {
     width: 770px;
 }
 
-.page-link {
-   color: black;
-}
+/* .pag+ */
 
 .col-3 {
     width: 25%;
@@ -388,6 +387,10 @@ button {
 }
 
 
+.desc h2 {
+    width: 614px;
+}
+
 .first-column p {
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
@@ -431,7 +434,7 @@ button {
     color: #FFFFFF;
 
     padding-top: 62px;
-    padding-bottom: 10px;
+    padding-bottom: 24px;
 }
 
 .posts img {
@@ -439,7 +442,7 @@ button {
     margin-bottom: 40px;
 }
 
-.descs h4 {
+.desc-post h4 {
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -447,11 +450,17 @@ button {
     line-height: 26px;
     /* or 173% */
 
-
+    width: 178px;
+    
+    
     color: #FFFFFF;
 }
 
-.descs p {
+.desc-post {
+    padding-left: 20px;
+}
+
+.desc-post p {
     font-family: 'PT Sans,', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -513,3 +522,41 @@ footer {
     padding-top: 39px;
     padding-bottom: 25px;
 }
+
+.burger  {
+    border: none;
+    background-color: white;
+    /* color: white; */
+    display: none;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    margin-right: 44px;
+}
+
+.post1 {
+    display: flex;
+}
+
+.post2 {
+    display: flex;
+}
+
+.post3 {
+    display: flex;
+}
+
+.posts img {
+    width: 100%;
+}
+
+
+
